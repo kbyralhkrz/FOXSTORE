@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOX - تسجيل الدخول</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>مرحباً بك في FOX</h1>
+        <div id="form-container">
+            <div id="register-form" class="form">
+                <h2>تسجيل حساب جديد</h2>
+                <input type="text" id="reg-username" placeholder="اسم المستخدم" required>
+                <input type="password" id="reg-password" placeholder="كلمة المرور" required>
+                <button onclick="registerUser()">تسجيل</button>
+                <p id="reg-message"></p>
+            </div>
+
+            <div id="login-form" class="form">
+                <h2>تسجيل الدخول</h2>
+                <input type="text" id="login-username" placeholder="اسم المستخدم" required>
+                <input type="password" id="login-password" placeholder="كلمة المرور" required>
+                <button onclick="loginUser()">دخول</button>
+                <p id="login-message"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
